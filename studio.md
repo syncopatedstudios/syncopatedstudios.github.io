@@ -7,5 +7,7 @@ permalink: /studio/
 
 # it's not myspace
 
+{% asset site_header02.png %}
+
 [ room1 img ]
 [ room2 img ]
