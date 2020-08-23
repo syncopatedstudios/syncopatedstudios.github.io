@@ -1,13 +1,11 @@
 ---
 layout: page
 title: studio
-subtitle: proto-typing on a keyboard0_n_
+subtitle: proto-typing on a keyboard0
 permalink: /studio/
 ---
 
 # it's not myspace
 
-{% asset site_header02.png %}
 
-[ room1 img ]
-[ room2 img ]
+![alt text](/assets/images/lower_shelf_eq.png)
