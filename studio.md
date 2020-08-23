@@ -1,16 +1,11 @@
 ---
 layout: page
 title: studio
-subtitle: things transcoded in color bits
+subtitle: proto-typing on a keyboard0
 permalink: /studio/
 ---
 
-# a place to share creations...
-
-links to?
+# it's not myspace
 
 
-  soundcloud or what have you (bandcamp)
-  dreaque.
-
-  
+![alt text](/assets/images/lower_shelf_eq.png)

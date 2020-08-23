@@ -7,7 +7,7 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
    gem "jekyll-feed"
    gem "jekyll-paginate"
-   gem "jekyll-assets"
+   # gem "jekyll-assets"
    gem "jemoji"
    gem "jekyll-asciinema"
    gem "jekyll-youtube"
@@ -24,3 +24,4 @@ gem "mini_magick"
 gem "rdiscount"
 gem "execjs"
 gem "sprockets", "~> 3.7"
+gem "image_optim"
