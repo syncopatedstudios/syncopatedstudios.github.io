@@ -1,5 +1,6 @@
 # Site settings
 title: syncopated studios
+logo: /assets/images/site_header02.png
 description: >
   Artful experiences and experiments in the pursuit of optimal enjoyment
 
@@ -26,23 +27,54 @@ exclude: ["README.md", "README.html", "Gemfile", "Gemfile.lock", "resources/*", 
 highlighter: null
 markdown: kramdown
 
-plugins:
-  - jekyll-assets
+sass:
+    sass_dir: _sass
+#plugins:
+  # - jekyll-assets
   # - jekyll-transform
 
-assets:
-  compress:
-    css: sass
-    js: uglifier
-
-  cache: false
-
-  sources:
-    - assets/img
-    - assets/vendor
-
-  autoprefixer:
-    browsers: ["last 2 versions","> 5%","IE 9"]
+# assets:
+#   source_maps: true
+#   destination: "/assets"
+#   compression: false
+#   gzip: false
+#   defaults:
+#     integrity:
+#       {css,img,js}: false
+#   caching:
+#     enabled: true
+#     path: ".jekyll-cache/assets"
+#     type: file
+#   # --
+#   # Assets you wish to always have compiled.
+#   #   This can also be combined with raw_precompile which
+#   #   copies assets without running through the pipeline
+#   #   making them ultra fast.
+#   # --
+#   precompile: []
+#   raw_precompile: [
+#     #
+#   ]
+#   # --
+#   # baseurl: whether or not to append site.baseurl
+#   # destination: the folder you store them in on the CDN.
+#   # url: the CDN url (fqdn, or w/ identifier).
+#   # --
+#   cdn:
+#     baseurl: false
+#     destination: false
+#     url: null
+#   # --
+#   # See lib/jekyll/assets/config.rb
+#   #   for a list of defaults
+#   # --
+#   sources:
+#     - _assets/css
+#     - _assets/images
+#     - _assets/vendor
+#   plugins:
+#     css: { autoprefixer: {}}
+#     img: { optim: {}}
 
 # transform:
 #   folder: '_wiki'
