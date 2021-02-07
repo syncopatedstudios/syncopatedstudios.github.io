@@ -13,6 +13,7 @@ group :jekyll_plugins do
    gem "jekyll-youtube"
    gem "jekyll-scholar"
    gem "jekyll-compose"
+   gem "jekyll-text-theme"
 end
 
 gem "html-proofer"
