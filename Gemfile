@@ -15,6 +15,8 @@ group :jekyll_plugins do
    gem "jekyll-compose"
 end
 
+gem "jekyll-text-theme"
+
 gem "html-proofer"
 gem "uglifier"
 gem "autoprefixer-rails"
